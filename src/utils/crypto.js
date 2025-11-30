@@ -256,8 +256,6 @@ export const decrypt = (ciphertext, key, invSbox) => {
   return bytesToString(removePadding(plaintext));
 };
 
-// Tambahkan di bagian bawah src/utils/crypto.js
-
 // Hitung Hamming Weight (jumlah bit '1')
 const hammingWeight = (n) => {
   let count = 0;
